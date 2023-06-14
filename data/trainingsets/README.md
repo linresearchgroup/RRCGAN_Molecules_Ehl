@@ -1,3 +1,3 @@
-It has Data.pickle consists of all qm9 data with
-atom and bond matrices and heat capacities.
+﻿It has Data.pickle consists of all PubChemQC data with
+SMILES and one-hot encoded SMILES with gap values. 
 
