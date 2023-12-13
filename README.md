@@ -1,6 +1,5 @@
-﻿#
-# Reinforced Regressinal and Conditional GAN: RRCGAN
-Submitted to Nature Computational Science.
+﻿# Reinforced Regressinal and Conditional GAN: RRCGAN
+Submitted to Digital Discovery.
 
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 
@@ -39,6 +38,13 @@ RDKit
 
 # Installation Guide:
 The only challenge for running the model is to set up the Tensorflow-gpu. One should install specific version of Tensorflow and Nvidia drivers to make it work. The necessary packages and the built conda environment used is mentioned in `environment.yml`. Installing the whole packages and running Tensorflow-gpu may take 30-60 minutes. 
+The following NVIDIA software are required for GPU support.
+    • NVIDIA GPU drivers version 450.80.02 or higher. 
+    • CUDA® Toolkit 11.8. 
+    • cuDNN SDK 8.6.0. 
+For installation, one needs to install the packages in the order. So, Nvidial GPU needs to be installed first. More information can be found in Tensorflow website (https://www.tensorflow.org/install/pip)
+We also motivates a reader to visit (https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible) to read more details for installing the versions for Tensorflow-gpu. 
+
 We primarily used Lewis Cluster from University of Missouri-Columbia for running the code. The following is the information of a PC that was tested for running the Tensorflow on GPU. 
 -GPU Nvidia RTX 2080 Super, Cuda version: 10.1, cuDNN: 7.6, Tensorflow: 2.11.0
 
